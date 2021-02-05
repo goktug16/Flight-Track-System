@@ -22,3 +22,45 @@ The main activities are given as follows:
 
 Once the program starts, the user would add new destinations. Then, the user would set and start the system time. Each flight would occur as a thread. The system would create a thread for each scheduled flight. After the completion of the landing, the system should kill the related thread. 
 
+- Main Screen
+
+![](images/main.png)
+
+
+
+-Book a Flight
+
+![](images/book.png)
+
+
+-Change Flight Info
+
+![](images/update.png)
+
+
+-Add Capital
+
+![](images/add_c.png)
+
+
+-Add Route
+
+![](images/add_r.png)
+
+
+-Flight List
+
+![](images/list.png)
+
+
+
+-Permission Request
+
+
+![](images/per.png)
+
+
+
+-System time(1 sec in real life , 1 min in system)
+
+![](images/time.png)
