@@ -14,11 +14,17 @@ Each capital would have a control tower to manage take offs and landings. For ex
 The main activities are given as follows:
 
 •	Add/Delete capitals.
+
 •	Add/Delete/Update destinations and flight information.
+
 •	Set some delay for a specific flight or cancel a certain flight in a given airport.
+
 •	Make the flights, which are close enough to a given airport, wait and then give them permission for landing.
+
 •	Report the information (scheduled arrival/departure time, take off and landing time, delay, date, flight number, the name of the airlines, the departure and the arrival city), for each taking off and landing into a file.
+
 •	Start, pause, resume and stop the system time.
+
 
 Once the program starts, the user would add new destinations. Then, the user would set and start the system time. Each flight would occur as a thread. The system would create a thread for each scheduled flight. After the completion of the landing, the system should kill the related thread. 
 
